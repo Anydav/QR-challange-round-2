@@ -14,31 +14,33 @@
 }
 
 #pic{
-    width:280px;
-    height: 300px;
-    border-radius:25px ;
+    width: 100%;
+    height:auto;
+    border-radius:5% ;
 }
 #middlebox{
     background-color: rgb(255, 255, 255);
     display: inline-block;
     border:none;
-    padding: 20px;
-    border-radius: 25px;
+    padding:1%;
+    border-radius: 5%;
     margin: auto;
+    width: 20%;
+    height:auto;
     
 }
 .firstword{
-    font-size: 15px;
+    font-size: 1em;
     font-family:Outfit;
-    line-height: 4px;
+    line-height: 0.1em;
 
 }
 #test{
-    margin-top: 23px;
+    margin-top: 2.5em;
 }
 #cap1{
-    font-size: 18px;
+    font-size: 1.2em;
 }
 #cap2{
-    font-size: 18px;
+    font-size: 1.2em;
 }
