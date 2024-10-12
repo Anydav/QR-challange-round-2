@@ -1,17 +1,22 @@
 
 
 #background{
-    background-color: rgb(224, 246, 255);
+    background-color:hsl(212, 45%, 89%);
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+    display:flex;
+    justify-content: center;
     text-align: center;
+ 
 }
 
 #pic{
-    width:300px;
+    width:280px;
+    height: 300px;
+    border-radius:25px ;
 }
 #middlebox{
     background-color: rgb(255, 255, 255);
@@ -19,6 +24,7 @@
     border:none;
     padding: 20px;
     border-radius: 25px;
+    margin: auto;
     
 }
 .firstword{
@@ -26,4 +32,13 @@
     font-family:Outfit;
     line-height: 4px;
 
+}
+#test{
+    margin-top: 23px;
+}
+#cap1{
+    font-size: 18px;
+}
+#cap2{
+    font-size: 18px;
 }
